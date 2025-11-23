@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.so
+
+# Virtual envs
+.venv/
+venv/
+.env/
+.env.*.local
+
+# Env files
+.env
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Editors / IDEs
+.vscode/
+.idea/
+*.iml
+
+# pytest / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# mypy / type checking
+.mypy_cache/
+.dmypy.json
+.pyre/
+
+# Logs
+logs/
+*.log
+
+# Byte-compiled / compiled
+build/
+dist/
+*.egg-info/
+
+# Docker
+*.pid
+
+# UV / lockfiles
+# Keep uv.lock tracked, it's useful for reproducible installs.
+# If you ever decide otherwise, uncomment the next line:
+# uv.lock
+
+# Misc
+.cache/

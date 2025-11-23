@@ -1,0 +1,30 @@
+[project]
+name = "spendtrackr"
+version = "0.1.0"
+description = "Spend Tracker BE App to manage SME expenses"
+readme = "README.md"
+authors = [
+    { name = "Ravi Khinchi", email = "rk79461@gmail.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi[standard]>=0.121.3",
+    "passlib[bcrypt]>=1.7.4",
+    "bcrypt<4.0.0",
+    "pydantic>=2.12.4",
+    "pydantic-settings>=2.12.0",
+    "pymysql>=1.1.2",
+    "python-dotenv>=1.2.1",
+    "python-jose[cryptography]>=3.5.0",
+    "python-multipart>=0.0.20",
+    "redis>=7.1.0",
+    "sqlalchemy>=2.0.44",
+    "uvicorn[standard]>=0.38.0",
+]
+
+[project.scripts]
+spend-trackr = "spend_trackr:main"
+
+[build-system]
+requires = ["uv_build>=0.8.23,<0.9.0"]
+build-backend = "uv_build"
