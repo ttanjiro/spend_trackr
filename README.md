@@ -1,6 +1,6 @@
 # SpendTrackr
 
-SpendTrackr is a **backend service for multi-tenant expense management**, inspired by platforms like Alaan, Brex, Ramp, etc.
+SpendTrackr is a **backend service for multi-tenant expense management**
 
 It lets companies:
 
