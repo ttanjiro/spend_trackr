@@ -1,1 +1,1 @@
-# inti spend tracker
+# init spend tracker
